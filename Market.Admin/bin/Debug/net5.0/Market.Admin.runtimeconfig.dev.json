@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/zura/.dotnet/store/|arch|/|tfm|",
+      "/home/zura/.nuget/packages"
+    ]
+  }
+}

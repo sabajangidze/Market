@@ -1,0 +1,20 @@
+create database Market
+go
+
+use Market
+go
+
+create table Category(
+    CategoryID int PRIMARY KEY identity,
+    Name nvarchar(30)
+)
+go
+
+create table Products(
+    ProductID int primary key identity,
+    Name nvarchar(30),
+    Price money,
+    CategoryID int,
+    foreign key (CategoryID) references Category(CategoryID)
+)
+go

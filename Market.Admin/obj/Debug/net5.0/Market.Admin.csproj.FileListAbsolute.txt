@@ -1,0 +1,16 @@
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.deps.json
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.runtimeconfig.json
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.runtimeconfig.dev.json
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/ref/Market.Admin.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.pdb
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.csprojAssemblyReference.cache
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.GeneratedMSBuildEditorConfig.editorconfig
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.AssemblyInfoInputs.cache
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.AssemblyInfo.cs
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.csproj.CoreCompileInputs.cache
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/ref/Market.Admin.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.pdb
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.genruntimeconfig.cache
