@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Market.IO/1.0.0": {
+        "dependencies": {
+          "Market.Tools": "1.0.0"
+        },
+        "runtime": {
+          "Market.IO.dll": {}
+        }
+      },
+      "Market.Tools/1.0.0": {
+        "runtime": {
+          "Market.Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Market.IO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Market.Tools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

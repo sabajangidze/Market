@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.Admin", "Market.Admin\Market.Admin.csproj", "{81749C2E-A94F-44EA-891B-D89CB71AD19A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.Admin", "Market.Admin\Market.Admin.csproj", "{81749C2E-A94F-44EA-891B-D89CB71AD19A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.IO", "Market.IO\Market.IO.csproj", "{D0C94055-087E-49FD-8A0B-2D965F90C922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.IO", "Market.IO\Market.IO.csproj", "{D0C94055-087E-49FD-8A0B-2D965F90C922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.DB", "Market.DB\Market.DB.csproj", "{462DCC4A-A7F6-4353-B32A-C9D193E1CA1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.DB", "Market.DB\Market.DB.csproj", "{462DCC4A-A7F6-4353-B32A-C9D193E1CA1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.Tools", "Market.Tools\Market.Tools.csproj", "{B602FC17-0ED8-46C2-BAE8-168772CCD501}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,15 @@ Global
 		{462DCC4A-A7F6-4353-B32A-C9D193E1CA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462DCC4A-A7F6-4353-B32A-C9D193E1CA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462DCC4A-A7F6-4353-B32A-C9D193E1CA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B602FC17-0ED8-46C2-BAE8-168772CCD501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B602FC17-0ED8-46C2-BAE8-168772CCD501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B602FC17-0ED8-46C2-BAE8-168772CCD501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B602FC17-0ED8-46C2-BAE8-168772CCD501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24DBFC67-0D1A-42CA-B398-5D777872011B}
 	EndGlobalSection
 EndGlobal

@@ -5,4 +5,10 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Market.DB\Market.DB.csproj" />
+      <ProjectReference Include="..\Market.IO\Market.IO.csproj" />
+      <ProjectReference Include="..\Market.Tools\Market.Tools.csproj" />
+    </ItemGroup>
+
 </Project>

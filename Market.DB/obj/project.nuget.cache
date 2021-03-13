@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "3YHOOm0TipXQviu1f+RnPtDumc/O+y8NmyvHO3iPPz1ykpqA1gFE9E73xYui2T5UtQntEI33PoH7BfL1J6DNMg==",
+  "dgSpecHash": "DQg6umyuUiIScbmpQH7Jnt3z0q9haBN6f9FDLz5pDAct5dSNPQGmln0id162w4oV1+Ij8BU9qnBe15v5R7cBKg==",
   "success": true,
-  "projectFilePath": "/home/zura/Projects/NETProjects/Market/Market.DB/Market.DB.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.DB\\Market.DB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zurab\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\zurab\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\zurab\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\zurab\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\zurab\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\zurab\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\zurab\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
+    "C:\\Users\\zurab\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\zurab\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

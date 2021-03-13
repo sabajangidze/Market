@@ -1,37 +1,62 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Market.Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Market.Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Market.Tools.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Market.Tools/1.0.0": {
+      "type": "project",
+      "path": "../Market.Tools/Market.Tools.csproj",
+      "msbuildProject": "../Market.Tools/Market.Tools.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Market.Tools >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "/home/zura/.nuget/packages/": {}
+    "C:\\Users\\zurab\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/zura/Projects/NETProjects/Market/Market.IO/Market.IO.csproj",
+      "projectUniqueName": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.IO\\Market.IO.csproj",
       "projectName": "Market.IO",
-      "projectPath": "/home/zura/Projects/NETProjects/Market/Market.IO/Market.IO.csproj",
-      "packagesPath": "/home/zura/.nuget/packages/",
-      "outputPath": "/home/zura/Projects/NETProjects/Market/Market.IO/obj/",
+      "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.IO\\Market.IO.csproj",
+      "packagesPath": "C:\\Users\\zurab\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.IO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/zura/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\zurab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj": {
+              "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

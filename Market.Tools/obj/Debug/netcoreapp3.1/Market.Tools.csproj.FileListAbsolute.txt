@@ -1,0 +1,9 @@
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\bin\Debug\netcoreapp3.1\Market.Tools.deps.json
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\bin\Debug\netcoreapp3.1\Market.Tools.dll
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\bin\Debug\netcoreapp3.1\Market.Tools.pdb
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\obj\Debug\netcoreapp3.1\Market.Tools.csprojAssemblyReference.cache
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\obj\Debug\netcoreapp3.1\Market.Tools.AssemblyInfoInputs.cache
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\obj\Debug\netcoreapp3.1\Market.Tools.AssemblyInfo.cs
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\obj\Debug\netcoreapp3.1\Market.Tools.csproj.CoreCompileInputs.cache
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\obj\Debug\netcoreapp3.1\Market.Tools.dll
+C:\Users\zurab\Desktop\visual studio projects\Market\Market.Tools\obj\Debug\netcoreapp3.1\Market.Tools.pdb
