@@ -27,7 +27,7 @@ namespace Market.Tools
             if (data.Length < 0 || data.Length > 3)
                 throw new InvalidCastException("Invalid array");
 
-            return new Product((string)data[0], (string)data[1], (double)data[2]);
+            return new Product((string)data[0], (string)data[1], Convert.ToDouble(data[2]));
         }
     }
 }

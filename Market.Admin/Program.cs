@@ -1,5 +1,8 @@
-﻿using System;
-using Market.DB;
+﻿using Market.DB;
+using Market.IO;
+using Market.Tools;
+using System;
+using System.Collections.Generic;
 
 namespace Market.Admin
 {
@@ -28,12 +31,13 @@ namespace Market.Admin
                 {
                     case Commands.ShowData:
                         Console.Clear();
-                        Dialog.ShowTable(DBTools.GetTable());
+                        ShowDataFlow();
                         Console.WriteLine("\n\n");
                         break;
                     case Commands.InportData:
                         Console.Clear();
-                        Console.WriteLine("InportData \n");
+                        InportDataFlow();
+                        Console.WriteLine("\n\n");
                         break;
                     case Commands.Exit:
                         return;
@@ -42,6 +46,54 @@ namespace Market.Admin
                         break;
                 }
             }
+        }
+
+        static void ShowDataFlow()
+        {
+            try
+            {
+                Dialog.ShowTable(DBTools.GetTable());
+            }
+            catch (Exception ex)
+            {
+                WriteError(ex.Message);
+            }
+        }
+
+        static void InportDataFlow()
+        {
+            List<Product> products = null;
+
+            try
+            {
+                products = IOTools.ReadFile(Dialog.AskFilePath());
+            }
+            catch (Exception ex)
+            {
+                WriteError(ex.Message);
+                return;
+            }
+
+            if (products != null)
+            {
+                try
+                {
+                    DBTools.InportData(products);
+                }
+                catch(Exception ex)
+                {
+                    WriteError(ex.Message);
+                    if (ex.InnerException != null)
+                        WriteError(ex.InnerException.Message);
+                }
+            }
+        }
+
+        static void WriteError(string errorText)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(errorText);
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }

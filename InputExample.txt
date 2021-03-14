@@ -1,0 +1,5 @@
+Toys:train:20,0
+Toys:car:15
+Food:Lobiani:2
+Food:Xachapuri:3
+Clothes:Shirt:35,60

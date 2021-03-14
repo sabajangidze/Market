@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Market.Tools;
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -18,7 +20,7 @@ namespace Market.DB
         {
             DataTable table = new DataTable();
 
-            using(SqlConnection connection = Connect())
+            using (SqlConnection connection = Connect())
             {
                 connection.Open();
                 SqlCommand command = connection.CreateCommand();
@@ -33,6 +35,58 @@ namespace Market.DB
             {
                 command.Parameters.Add("@CategoryName", SqlDbType.NVarChar, 30).Value = DBNull.Value;
                 command.Parameters.Add("@ProductName", SqlDbType.NVarChar, 30).Value = DBNull.Value;
+            }
+        }
+
+        public static void InportData(List<Product> products)
+        {
+            using (SqlConnection connection = Connect())
+            {
+                connection.Open();
+                SqlTransaction transaction = connection.BeginTransaction();
+                SqlCommand command = connection.CreateCommand();
+                command.Transaction = transaction;
+                command.CommandType = CommandType.StoredProcedure;
+                command.CommandText = "InportData";
+                AddParameters(command);
+
+                foreach (Product product in products)
+                {
+                    try
+                    {
+                        AddValues(command, product);
+                        command.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            transaction.Rollback();
+                        }
+                        catch(Exception exRollback)
+                        {
+                            throw new Exception(ex.Message, exRollback);
+                        }
+
+                        throw ex;
+                    }
+                }
+
+                transaction.Commit();
+
+                void AddParameters(SqlCommand command)
+                {
+                    command.Parameters.Add("@CategoryName", SqlDbType.NVarChar, 30);
+                    command.Parameters.Add("@ProductName", SqlDbType.NVarChar, 30);
+                    command.Parameters.Add("@Price", SqlDbType.Money);
+                }
+
+                void AddValues(SqlCommand command, Product product)
+                {
+                    command.Parameters["@CategoryName"].Value = product.CategoryName;
+                    command.Parameters["@ProductName"].Value = product.ProductName;
+                    command.Parameters["@Price"].Value = product.Price;
+                }
             }
         }
 

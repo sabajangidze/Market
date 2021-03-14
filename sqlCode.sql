@@ -10,15 +10,6 @@ from Category C join Products P on C.CategoryID = P.CategoryID
 where (C.Name = @CategoryName or @CategoryName is null)
 and   (P.Name = @ProductName or @ProductName is null)
 
-------------------insert data--------------------------
-insert into Products(name, price, categoryid) values ('car', 10.5, 1)
-insert into Products(name, price, categoryid) values ('Train', 20, 1)
-insert into Products(name, price, categoryid) values ('Ball', 15, 1)
-insert into Products(name, price, categoryid) values ('Lobiani', 2, 2)
-insert into Products(name, price, categoryid) values ('Xachapuri', 3, 2)
-insert into Category(Name) values('Toys')
-insert into Category(Name) values('Food')
-
 --------------Inports Data----------------
 create proc InportData(
     @CategoryName nvarchar(30),
@@ -30,7 +21,8 @@ as
         if not exists (select * from GetData (@CategoryName, @ProductName)) and
            exists (select * from GetData (default, @ProductName))
             begin
-                raiserror('Invalid Values', 16, 1)
+                declare @Error varchar(200) = 'Invalid category on Product => ' + @ProductName 
+                raiserror(@Error, 16, 1)
                 return 1
             end
 
@@ -42,6 +34,4 @@ as
         else
             update Products set Price = @Price where Name = @ProductName
     end
-
-
 
