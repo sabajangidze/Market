@@ -12,7 +12,7 @@ namespace Market.DB
 
         static DBTools()
         {
-            _server = @".\sqlexpress";
+            _server = IsLinux() ? @"localhost" : @".\sqlexpress";
             _database = "Market";
         }
 
@@ -22,10 +22,10 @@ namespace Market.DB
 
             using (SqlConnection connection = Connect())
             {
-                connection.Open();
                 SqlCommand command = connection.CreateCommand();
                 AddParameters(command);
                 command.CommandText = "select * from GetData(@CategoryName, @ProductName)";
+                connection.Open();
                 table.Load(command.ExecuteReader());
             }
 
@@ -42,13 +42,13 @@ namespace Market.DB
         {
             using (SqlConnection connection = Connect())
             {
-                connection.Open();
-                SqlTransaction transaction = connection.BeginTransaction();
                 SqlCommand command = connection.CreateCommand();
-                command.Transaction = transaction;
                 command.CommandType = CommandType.StoredProcedure;
                 command.CommandText = "InportData";
                 AddParameters(command);
+                connection.Open();
+                SqlTransaction transaction = connection.BeginTransaction();
+                command.Transaction = transaction;
 
                 foreach (Product product in products)
                 {
@@ -63,7 +63,7 @@ namespace Market.DB
                         {
                             transaction.Rollback();
                         }
-                        catch(Exception exRollback)
+                        catch (Exception exRollback)
                         {
                             throw new Exception(ex.Message, exRollback);
                         }
@@ -90,6 +90,14 @@ namespace Market.DB
             }
         }
 
-        private static SqlConnection Connect() => new SqlConnection($"server={_server}; database={_database}; Integrated Security=true");
+        private static bool IsLinux() => PlatformID.Unix == Environment.OSVersion.Platform;
+
+        private static SqlConnection Connect()
+        {
+            if (IsLinux())
+                return new SqlConnection($"server={_server}; database={_database}; uid=HIDDEN; pwd=HIDDENPASSWORD");
+
+            return new SqlConnection($"server={_server}; database={_database}; Integrated Security=true");
+        }
     }
 }

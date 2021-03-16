@@ -1,15 +1,30 @@
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\bin\Debug\net5.0\Market.DB.deps.json
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\bin\Debug\net5.0\Market.DB.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\bin\Debug\net5.0\ref\Market.DB.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\bin\Debug\net5.0\Market.DB.pdb
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\bin\Debug\net5.0\Market.Tools.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\bin\Debug\net5.0\Market.Tools.pdb
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\Market.DB.csprojAssemblyReference.cache
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\Market.DB.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\Market.DB.AssemblyInfoInputs.cache
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\Market.DB.AssemblyInfo.cs
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\Market.DB.csproj.CoreCompileInputs.cache
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\Market.DB.csproj.CopyComplete
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\Market.DB.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\ref\Market.DB.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.DB\obj\Debug\net5.0\Market.DB.pdb
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/bin/Debug/net5.0/Market.DB.deps.json
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/bin/Debug/net5.0/Market.DB.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/bin/Debug/net5.0/ref/Market.DB.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/bin/Debug/net5.0/Market.DB.pdb
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/bin/Debug/net5.0/Market.Tools.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/bin/Debug/net5.0/Market.Tools.pdb
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/Market.DB.csprojAssemblyReference.cache
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/Market.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/Market.DB.AssemblyInfoInputs.cache
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/Market.DB.AssemblyInfo.cs
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/Market.DB.csproj.CoreCompileInputs.cache
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/Market.DB.csproj.CopyComplete
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/Market.DB.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/ref/Market.DB.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.DB/obj/Debug/net5.0/Market.DB.pdb
+/home/zura/Projects/NETProjects/Market/Market.DB/bin/Debug/net5.0/Market.DB.deps.json
+/home/zura/Projects/NETProjects/Market/Market.DB/bin/Debug/net5.0/Market.DB.dll
+/home/zura/Projects/NETProjects/Market/Market.DB/bin/Debug/net5.0/ref/Market.DB.dll
+/home/zura/Projects/NETProjects/Market/Market.DB/bin/Debug/net5.0/Market.DB.pdb
+/home/zura/Projects/NETProjects/Market/Market.DB/bin/Debug/net5.0/Market.Tools.dll
+/home/zura/Projects/NETProjects/Market/Market.DB/bin/Debug/net5.0/Market.Tools.pdb
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/Market.DB.csprojAssemblyReference.cache
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/Market.DB.GeneratedMSBuildEditorConfig.editorconfig
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/Market.DB.AssemblyInfoInputs.cache
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/Market.DB.AssemblyInfo.cs
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/Market.DB.csproj.CoreCompileInputs.cache
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/Market.DB.csproj.CopyComplete
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/Market.DB.dll
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/ref/Market.DB.dll
+/home/zura/Projects/NETProjects/Market/Market.DB/obj/Debug/net5.0/Market.DB.pdb

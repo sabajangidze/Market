@@ -470,34 +470,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zurab\\.nuget\\packages\\": {}
+    "/home/zura/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.DB\\Market.DB.csproj",
+      "projectUniqueName": "/home/zura/Projects/NETProjects/Market/Market.DB/Market.DB.csproj",
       "projectName": "Market.DB",
-      "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.DB\\Market.DB.csproj",
-      "packagesPath": "C:\\Users\\zurab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.DB\\obj\\",
+      "projectPath": "/home/zura/Projects/NETProjects/Market/Market.DB/Market.DB.csproj",
+      "packagesPath": "/home/zura/.nuget/packages/",
+      "outputPath": "/home/zura/Projects/NETProjects/Market/Market.DB/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zurab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/zura/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj": {
-              "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj"
+            "/home/zura/Projects/NETProjects/Market/Market.Tools/Market.Tools.csproj": {
+              "projectPath": "/home/zura/Projects/NETProjects/Market/Market.Tools/Market.Tools.csproj"
             }
           }
         }
@@ -532,7 +530,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

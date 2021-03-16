@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\zurab\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\zurab\\.nuget\\packages"
+      "/home/zura/.dotnet/store/|arch|/|tfm|",
+      "/home/zura/.nuget/packages"
     ]
   }
 }

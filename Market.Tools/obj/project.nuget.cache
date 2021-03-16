@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ODfdRUAqqUYWH7hN0OfC7pCIMmOdV7EpNTaWMWGyrOAfZInI+rDryjXnZDZL1OBCs1AY1+Po5okCOn2owCSgFQ==",
+  "dgSpecHash": "xR9et6DsaiW0mi51ETgPvicPDEj02U6j8JVnNafN6Wb6Culqd5r5JdQyVbtGs4rq+oYZ5gzGsVRACtJHKXe/wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/zura/Projects/NETProjects/Market/Market.Tools/Market.Tools.csproj",
+  "expectedPackageFiles": [
+    "/home/zura/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/zura/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

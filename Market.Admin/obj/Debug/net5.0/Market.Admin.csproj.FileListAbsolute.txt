@@ -14,32 +14,45 @@
 /home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/ref/Market.Admin.dll
 /home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.pdb
 /home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.genruntimeconfig.cache
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.Admin.exe
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.Admin.deps.json
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.Admin.runtimeconfig.json
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.Admin.runtimeconfig.dev.json
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.Admin.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\ref\Market.Admin.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.Admin.pdb
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.csprojAssemblyReference.cache
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.AssemblyInfoInputs.cache
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.AssemblyInfo.cs
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.csproj.CoreCompileInputs.cache
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\ref\Market.Admin.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.pdb
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.genruntimeconfig.cache
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.DB.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.IO.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.Tools.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.DB.pdb
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.IO.pdb
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\Market.Tools.pdb
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\obj\Debug\net5.0\Market.Admin.csproj.CopyComplete
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\System.Data.SqlClient.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\zurab\Desktop\visual studio projects\Market\Market.Admin\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.exe
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.deps.json
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.runtimeconfig.json
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.runtimeconfig.dev.json
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/ref/Market.Admin.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.Admin.pdb
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.csprojAssemblyReference.cache
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.AssemblyInfoInputs.cache
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.AssemblyInfo.cs
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.csproj.CoreCompileInputs.cache
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/ref/Market.Admin.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.pdb
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.genruntimeconfig.cache
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.DB.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.IO.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.Tools.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.DB.pdb
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.IO.pdb
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/Market.Tools.pdb
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.csproj.CopyComplete
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/System.Data.SqlClient.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/zurab/Desktop/visual studio projects/Market/Market.Admin/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/System.Data.SqlClient.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.DB.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.IO.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.Tools.dll
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.DB.pdb
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.IO.pdb
+/home/zura/Projects/NETProjects/Market/Market.Admin/bin/Debug/net5.0/Market.Tools.pdb
+/home/zura/Projects/NETProjects/Market/Market.Admin/obj/Debug/net5.0/Market.Admin.csproj.CopyComplete
