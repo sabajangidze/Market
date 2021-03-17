@@ -508,19 +508,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zurab\\.nuget\\packages\\": {}
+    "C:\\Users\\zura\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Admin\\Market.Admin.csproj",
+      "projectUniqueName": "D:\\D-files\\visual projects\\Market\\Market.Admin\\Market.Admin.csproj",
       "projectName": "Market.Admin",
-      "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Admin\\Market.Admin.csproj",
-      "packagesPath": "C:\\Users\\zurab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Admin\\obj\\",
+      "projectPath": "D:\\D-files\\visual projects\\Market\\Market.Admin\\Market.Admin.csproj",
+      "packagesPath": "C:\\Users\\zura\\.nuget\\packages\\",
+      "outputPath": "D:\\D-files\\visual projects\\Market\\Market.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zurab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -534,14 +534,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.DB\\Market.DB.csproj": {
-              "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.DB\\Market.DB.csproj"
+            "D:\\D-files\\visual projects\\Market\\Market.DB\\Market.DB.csproj": {
+              "projectPath": "D:\\D-files\\visual projects\\Market\\Market.DB\\Market.DB.csproj"
             },
-            "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.IO\\Market.IO.csproj": {
-              "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.IO\\Market.IO.csproj"
+            "D:\\D-files\\visual projects\\Market\\Market.IO\\Market.IO.csproj": {
+              "projectPath": "D:\\D-files\\visual projects\\Market\\Market.IO\\Market.IO.csproj"
             },
-            "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj": {
-              "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj"
+            "D:\\D-files\\visual projects\\Market\\Market.Tools\\Market.Tools.csproj": {
+              "projectPath": "D:\\D-files\\visual projects\\Market\\Market.Tools\\Market.Tools.csproj"
             }
           }
         }
@@ -570,7 +570,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

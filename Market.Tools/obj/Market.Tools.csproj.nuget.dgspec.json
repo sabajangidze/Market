@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj": {}
+    "D:\\D-files\\visual projects\\Market\\Market.Tools\\Market.Tools.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj": {
+    "D:\\D-files\\visual projects\\Market\\Market.Tools\\Market.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj",
+        "projectUniqueName": "D:\\D-files\\visual projects\\Market\\Market.Tools\\Market.Tools.csproj",
         "projectName": "Market.Tools",
-        "projectPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\Market.Tools.csproj",
-        "packagesPath": "C:\\Users\\zurab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zurab\\Desktop\\visual studio projects\\Market\\Market.Tools\\obj\\",
+        "projectPath": "D:\\D-files\\visual projects\\Market\\Market.Tools\\Market.Tools.csproj",
+        "packagesPath": "C:\\Users\\zura\\.nuget\\packages\\",
+        "outputPath": "D:\\D-files\\visual projects\\Market\\Market.Tools\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zurab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zura\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
