@@ -23,19 +23,13 @@ namespace Market.DB
             using (SqlConnection connection = Connect())
             {
                 SqlCommand command = connection.CreateCommand();
-                AddParameters(command);
+                AddValues(command, AddParameters(command, "@CategoryName", "@ProductName"), null, null);
                 command.CommandText = "select * from GetData(@CategoryName, @ProductName)";
                 connection.Open();
                 table.Load(command.ExecuteReader());
             }
 
             return table;
-
-            void AddParameters(SqlCommand command)
-            {
-                command.Parameters.Add("@CategoryName", SqlDbType.NVarChar, 30).Value = DBNull.Value;
-                command.Parameters.Add("@ProductName", SqlDbType.NVarChar, 30).Value = DBNull.Value;
-            }
         }
 
         public static void InportData(List<Product> products)
@@ -45,7 +39,7 @@ namespace Market.DB
                 SqlCommand command = connection.CreateCommand();
                 command.CommandType = CommandType.StoredProcedure;
                 command.CommandText = "InportData";
-                AddParameters(command);
+                IEnumerable<string> parameters = AddParameters(command, "@CategoryName", "@ProductName", "@Price");
                 connection.Open();
                 SqlTransaction transaction = connection.BeginTransaction();
                 command.Transaction = transaction;
@@ -53,8 +47,8 @@ namespace Market.DB
                 foreach (Product product in products)
                 {
                     try
-                    {
-                        AddValues(command, product);
+                    {   
+                        AddValues(command, parameters, product.CategoryName, product.ProductName, product.Price);
                         command.ExecuteNonQuery();
                     }
                     catch (Exception ex)
@@ -73,20 +67,6 @@ namespace Market.DB
                 }
 
                 transaction.Commit();
-
-                void AddParameters(SqlCommand command)
-                {
-                    command.Parameters.Add("@CategoryName", SqlDbType.NVarChar, 30);
-                    command.Parameters.Add("@ProductName", SqlDbType.NVarChar, 30);
-                    command.Parameters.Add("@Price", SqlDbType.Money);
-                }
-
-                void AddValues(SqlCommand command, Product product)
-                {
-                    command.Parameters["@CategoryName"].Value = product.CategoryName;
-                    command.Parameters["@ProductName"].Value = product.ProductName;
-                    command.Parameters["@Price"].Value = product.Price;
-                }
             }
         }
 
@@ -95,9 +75,26 @@ namespace Market.DB
         private static SqlConnection Connect()
         {
             if (IsLinux())
-                return new SqlConnection($"server={_server}; database={_database}; uid=HIDDEN; pwd=HIDDENPASSWORD");
+                return new SqlConnection($"server={_server}; database={_database}; uid=hide; pwd=hide");
 
             return new SqlConnection($"server={_server}; database={_database}; Integrated Security=true");
+        }
+
+        private static IEnumerable<string> AddParameters(SqlCommand command, params string[] parameters)
+        {
+            for (int i = 0; i < parameters.Length; i++)
+            {
+                command.Parameters.Add(parameters[i]);
+                yield return parameters[i];
+            }
+        }
+
+        private static void AddValues(SqlCommand command, IEnumerable<string> parameters, params object[] values)
+        {
+            int index = 0;
+            
+            foreach (string parameter in parameters)
+                command.Parameters[parameter].Value = values[index++] ?? DBNull.Value;
         }
     }
 }
