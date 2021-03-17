@@ -1,5 +1,6 @@
-Toys:train:20,0
-Toys:car:15
-Food:Lobiani:2
-Food:Xachapuri:3
-Clothes:Shirt:35,60
+Toys:train:20.0
+Toys:car:15.0
+Food:Lobiani:7.67
+Food:Xachapuri:6.66
+Clothes:Shirt:35.60
+Human:Zura:160.15

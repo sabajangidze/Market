@@ -12,7 +12,7 @@ namespace Market.DB
 
         static DBTools()
         {
-            _server = @".\sqlexpress";
+            _server = IsLinux() ? @"localhost" : @".\sqlexpress";
             _database = "Market";
         }
 
@@ -22,39 +22,43 @@ namespace Market.DB
 
             using (SqlConnection connection = Connect())
             {
-                connection.Open();
                 SqlCommand command = connection.CreateCommand();
-                AddParameters(command);
+                AddParameters(command, new Dictionary<string, SqlDbType>() {
+                    {"@CategoryName", SqlDbType.NVarChar },
+                    {"@ProductName", SqlDbType.NVarChar }
+                });
+
+                AddValues(command, null, null);
                 command.CommandText = "select * from GetData(@CategoryName, @ProductName)";
+                connection.Open();
                 table.Load(command.ExecuteReader());
             }
 
             return table;
-
-            void AddParameters(SqlCommand command)
-            {
-                command.Parameters.Add("@CategoryName", SqlDbType.NVarChar, 30).Value = DBNull.Value;
-                command.Parameters.Add("@ProductName", SqlDbType.NVarChar, 30).Value = DBNull.Value;
-            }
         }
 
         public static void InportData(List<Product> products)
         {
             using (SqlConnection connection = Connect())
             {
-                connection.Open();
-                SqlTransaction transaction = connection.BeginTransaction();
                 SqlCommand command = connection.CreateCommand();
-                command.Transaction = transaction;
                 command.CommandType = CommandType.StoredProcedure;
                 command.CommandText = "InportData";
-                AddParameters(command);
+                AddParameters(command, new Dictionary<string, SqlDbType>(){
+                    {"@CategoryName", SqlDbType.NVarChar },
+                    { "@ProductName", SqlDbType.NVarChar },
+                    { "@Price", SqlDbType.Money }
+                });
+
+                connection.Open();
+                SqlTransaction transaction = connection.BeginTransaction();
+                command.Transaction = transaction;
 
                 foreach (Product product in products)
                 {
                     try
                     {
-                        AddValues(command, product);
+                        AddValues(command, product.CategoryName, product.ProductName, product.Price);
                         command.ExecuteNonQuery();
                     }
                     catch (Exception ex)
@@ -63,7 +67,7 @@ namespace Market.DB
                         {
                             transaction.Rollback();
                         }
-                        catch(Exception exRollback)
+                        catch (Exception exRollback)
                         {
                             throw new Exception(ex.Message, exRollback);
                         }
@@ -73,23 +77,33 @@ namespace Market.DB
                 }
 
                 transaction.Commit();
-
-                void AddParameters(SqlCommand command)
-                {
-                    command.Parameters.Add("@CategoryName", SqlDbType.NVarChar, 30);
-                    command.Parameters.Add("@ProductName", SqlDbType.NVarChar, 30);
-                    command.Parameters.Add("@Price", SqlDbType.Money);
-                }
-
-                void AddValues(SqlCommand command, Product product)
-                {
-                    command.Parameters["@CategoryName"].Value = product.CategoryName;
-                    command.Parameters["@ProductName"].Value = product.ProductName;
-                    command.Parameters["@Price"].Value = product.Price;
-                }
             }
         }
 
-        private static SqlConnection Connect() => new SqlConnection($"server={_server}; database={_database}; Integrated Security=true");
+        private static bool IsLinux() => PlatformID.Unix == Environment.OSVersion.Platform;
+
+        private static SqlConnection Connect()
+        {
+            if (IsLinux())
+                return new SqlConnection($"server={_server}; database={_database}; uid=hide; pwd=hide");
+
+            return new SqlConnection($"server={_server}; database={_database}; Integrated Security=true");
+        }
+
+        private static void AddParameters(SqlCommand command, Dictionary<string, SqlDbType> parameters)
+        {
+            foreach (var item in parameters)
+            {
+                command.Parameters.Add(item.Key, item.Value);
+            }
+        }
+
+        private static void AddValues(SqlCommand command, params object[] values)
+        {
+            int index = 0;
+
+            foreach (SqlParameter parameter in command.Parameters)
+                parameter.Value = values[index++] ?? DBNull.Value;
+        }
     }
 }
